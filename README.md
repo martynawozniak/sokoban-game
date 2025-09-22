@@ -26,6 +26,16 @@ The task was to write a C program that:
 
 ## Input commands
 
+The board description consists of non-empty rows, where each cell is represented by a single character:
+
+- "-" a free cell that is not a target;
+- "+" a free cell that is a target;
+- "#" a wall;
+- "@" a free cell (not a target) occupied by the player;
+- "*" a target cell occupied by the player;
+- [a .. z] (lowercase letter) a non-target cell occupied by a box labeled with the given letter;
+- [A .. Z] (uppercase letter) a target cell occupied by a box, where the box’s label is the lowercase equivalent of the given uppercase letter.
+
 Empty line (\n) → print current board.
 
 <box><direction> → push a box in a direction:
