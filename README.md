@@ -7,6 +7,18 @@ Unlike traditional Sokoban implementations, this version does not require the pl
 ## Notes
 This project was implemented as part of an academic assignment in the course **Introduction to Programming**.
 
+## Project Structure
+```bash
+├── sokoban.c          # Main source code
+├── example1.in        # Example input and output files are provided externally
+├── example1.out
+├── example2.in
+├── example2.out
+├── example3.in
+├── example3.out
+└── README.md
+```
+
 ## Introduction
 
 Sokoban is a single-player puzzle game played on a two-dimensional grid.
@@ -51,18 +63,6 @@ Empty line (\n) → print current board.
 0 → undo the last push.
 
 . → terminate input.
-
-## Project Structure
-```bash
-├── sokoban.c          # Main source code
-├── example1.in        # Example input and output files are provided externally
-├── example1.out
-├── example2.in
-├── example2.out
-├── example3.in
-├── example3.out
-└── README.md
-```
 
 ## Compilation
 
